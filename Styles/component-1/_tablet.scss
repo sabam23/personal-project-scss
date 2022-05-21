@@ -1,13 +1,57 @@
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
-    .header-info {
-        width: 344px;
-        height: 425px;
-        margin-left: 51.3px;
-    }
+  .header-info {
+    width: 344px;
+    height: 425px;
+    margin-left: 51.3px;
+    padding-left: 31.5px;
+  }
 
-    .grey {
-        width: 51.3px;
-        margin-right:74.6%;
+  .title {
+    margin-top: 29px;
+    margin-bottom: 20px;
+    & > span {
+      font-size: 18px;
+      top: 4px;
+      right: 60px;
     }
+  }
 
+  #logo {
+    width: 44.86px;
+    height: 44.86px;
+    padding-top: 3px;
+    font-size: 32.21px;
+  }
+
+  .grey {
+    width: 51.3px;
+    margin-right: 74.6%;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
+
+  .photography {
+    margin-left: 1px;
+  }
+
+  .profile {
+    margin-left: 4px;
+  }
+
+  .image-container {
+    right: 0%;
+    bottom: 0%;
+  }
+
+  .divider {
+    width: 280px;
+    font-size: 16px;
+    margin-left: 2px;
+  }
+
+  .admission {
+    font-size: 18px;
+  }
 }

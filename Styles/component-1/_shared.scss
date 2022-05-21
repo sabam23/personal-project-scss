@@ -12,36 +12,26 @@
     position: relative;
     background: $header-bg-color;
     opacity: 0.97;
-    padding-left: 31.5px;
+    
 
     & .title {
       position: relative;
       width: 224.25px;
       height: 71.5px;
-      margin-top: 29px;
-      margin-bottom: 20px;
 
       & > span {
         @include montserrat-bold;
-        display: inline-block;
-        font-size: 18px;
         text-align: left;
         color: $text-color;
         position: absolute;
-        top: 4px;
-        right: 60px;
       }
     }
 
     & #logo {
-      width: 44.86px;
-      height: 44.86px;
       border: 3px solid $text-color;
       @include montserrat-bold;
-      font-size: 32.21px;
       text-align: center;
       color: $text-color;
-      padding-top: 3px;
       display: inline-block;
     }
 
@@ -54,7 +44,6 @@
       text-align: center;
       color: $text-color;
       padding-top: 4px;
-      margin-left: 1px;
       margin-bottom: 3.8px;
     }
 
@@ -65,7 +54,6 @@
       line-height: 26px;
       text-align: left;
       color: $text-color;
-      margin-left: 4px;
       margin-bottom: 13px;
 
       & > span {
@@ -78,24 +66,21 @@
     }
 
     & .divider {
-      width: 280px;
       padding-top: 16px;
       padding-bottom: 19px;
       border-top: solid 1px $text-color;
       border-bottom: solid 1px $text-color;
       font-family: 'Open Sans';
       font-weight: 300;
-      font-size: 16px;
       line-height: 20px;
       text-align: left;
       color: $text-color;
-      margin-left: 2px;
       margin-bottom: 18px;
     }
 
     & .admission {
       @include montserrat;
-      font-size: 18px;
+
       text-align: left;
       color: $text-color;
       position: relative;
@@ -108,10 +93,6 @@
         left: 28px;
         top: 3px;
       }
-    }
-
-    & #mobile-menu {
-      display: none;
     }
   }
 
@@ -155,8 +136,7 @@
     height: 44.5px;
     display: flex;
     position: absolute;
-    right: 0%;
-    bottom: 0%;
+
 
     & .block {
       width: 45.1px;

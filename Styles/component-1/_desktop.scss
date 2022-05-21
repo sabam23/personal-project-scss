@@ -3,10 +3,55 @@
     width: 350px;
     height: 425px;
     margin-left: 210px;
-}
+    padding-left: 31.5px;
+  }
 
-    .grey {
-        width: 560px;
-        margin-right: 38.2%;
+  .title {
+    margin-top: 29px;
+    margin-bottom: 20px;
+    & > span{
+        font-size: 18px;
+        top: 4px;
+        right: 60px;
     }
+  }
+
+  #logo {
+    width: 44.86px;
+    height: 44.86px;
+    padding-top: 3px;
+    font-size: 32.21px;
+  }
+
+  .grey {
+    width: 560px;
+    margin-right: 38.2%;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
+
+  .photography {
+    margin-left: 1px;
+  }
+
+  .profile {
+    margin-left: 4px;
+  }
+
+  .divider {
+      width: 280px;
+      font-size: 16px;
+      margin-left: 2px;
+  }
+
+  .admission {
+    font-size: 18px;
+  }
+
+  .image-container {
+    right: 0%;
+    bottom: 0%;
+  }
 }
