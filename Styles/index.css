@@ -54,6 +54,23 @@ table {
     height: 425px;
     margin-left: 210px;
   }
+
+  .grey {
+    width: 560px;
+    margin-right: 38.2%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-info {
+    width: 344px;
+    height: 425px;
+    margin-left: 51.3px;
+  }
+
+  .grey {
+    width: 51.3px;
+    margin-right: 74.6%;
+  }
 }
 .header {
   width: 100%;
@@ -173,10 +190,8 @@ table {
   display: flex;
 }
 .header .nav-bar .grey {
-  width: 560px;
   height: 100%;
   background: #dbdbdb;
-  margin-right: 38.2%;
 }
 .header .nav-bar .arrow {
   height: 62px;
