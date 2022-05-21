@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-info {
+    width: 350px;
+    height: 425px;
+    margin-left: 210px;
+  }
+}
+.header {
+  width: 100%;
+  height: 501.17px;
+}
+.header .header-content {
+  width: 100%;
+  height: 425px;
+  display: flex;
+}
+.header .header-info {
+  position: relative;
+  background: #ed1c24;
+  opacity: 0.97;
+  padding-left: 31.5px;
+}
+.header .header-info .title {
+  position: relative;
+  width: 224.25px;
+  height: 71.5px;
+  margin-top: 29px;
+  margin-bottom: 20px;
+}
+.header .header-info .title > span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  top: 4px;
+  right: 60px;
+}
+.header .header-info #logo {
+  width: 44.86px;
+  height: 44.86px;
+  border: 3px solid #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32.21px;
+  text-align: center;
+  color: #fff;
+  padding-top: 3px;
+  display: inline-block;
+}
+.header .header-info > .photography {
+  width: 100.25px;
+  height: 19.5px;
+  background: #111;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+  padding-top: 4px;
+  margin-left: 1px;
+  margin-bottom: 3.8px;
+}
+.header .header-info .profile {
+  width: 238px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  color: #fff;
+  margin-left: 4px;
+  margin-bottom: 13px;
+}
+.header .header-info .profile > span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: left;
+  color: #fff;
+}
+.header .header-info .divider {
+  width: 280px;
+  padding-top: 16px;
+  padding-bottom: 19px;
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+  margin-left: 2px;
+  margin-bottom: 18px;
+}
+.header .header-info .admission {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+  position: relative;
+}
+.header .header-info .admission span {
+  position: absolute;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  display: inline-block;
+  left: 28px;
+  top: 3px;
+}
+.header .header-info #mobile-menu {
+  display: none;
+}
+.header .nav-bar {
+  width: 100%;
+  height: 65.17px;
+  background: #111;
+  display: flex;
+}
+.header .nav-bar .grey {
+  width: 560px;
+  height: 100%;
+  background: #dbdbdb;
+  margin-right: 38.2%;
+}
+.header .nav-bar .arrow {
+  height: 62px;
+  width: 57.8px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.header .nav-bar .arrow img {
+  margin: 50% 50%;
+  transform: translate(-50%, -50%);
+}
+.header .menu {
+  width: 63.19px;
+  height: 59.14px;
+  background: #111;
+}
+.header .menu img {
+  margin: 50% 50%;
+  transform: translate(-50%, -50%);
+}
+.header .image-container {
+  width: 134.7px;
+  height: 44.5px;
+  display: flex;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+.header .image-container .block {
+  width: 45.1px;
+  height: 44.5px;
+  border: 1px solid rgba(255, 255, 255, 0.303);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .image-container i {
+  font-size: 20px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.css.map */
