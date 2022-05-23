@@ -1,0 +1,89 @@
+@media screen and (min-width: $desktop-min-width) {
+  .overview-block-1 {
+    width: 15%;
+    height: 100%;
+    background: $overview-block1-color;
+  }
+
+  .overview-block-2 {
+    height: 100%;
+    width: 350px;
+    background: $overview-block2-color;
+  }
+
+  .overview-content {
+    padding-top: 34px;
+    padding-left: 46px;
+
+    & > h2 {
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: left;
+      color: #222;
+      margin-bottom: 40px;
+    }
+
+    & .t1 {
+      width: 575px;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: left;
+      color: #222;
+      text-decoration: underline;
+      margin-bottom: 32px;
+    }
+
+    & .t2 {
+      display: flex;
+      width: 575px;
+      margin-bottom: 38px;
+
+      & > div {
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        color: #222;
+      }
+
+      & > div:nth-child(1) {
+        margin-right: 22px;
+      }
+    }
+
+    & .t3 {
+      width: 543.5px;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: left;
+      color: #222;
+    }
+  }
+}
+
+@media screen and (max-width: 1140px) {
+    .overview-content {
+        padding-left: 0px;
+        width: 400px;
+
+        & .t1 {
+            width: 500px;
+        }
+
+        & .t2 {
+            width: 500px;
+        }
+    
+        & .t3 {
+            width: 500px;
+        }
+    }
+    
+}
