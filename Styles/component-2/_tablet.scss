@@ -1,0 +1,68 @@
+@media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .overview-block-1 {
+    display: none;
+  }
+  .overview-block-2 {
+    display: none;
+  }
+
+  .overview-content {
+    padding-top: 34px;
+    padding-left: 46px;
+
+    & > h2 {
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: left;
+      color: #222;
+      margin-bottom: 40px;
+    }
+
+    & .t1 {
+      width: 575px;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: left;
+      color: #222;
+      text-decoration: underline;
+      margin-bottom: 32px;
+    }
+
+    & .t2 {
+      display: flex;
+      width: 575px;
+      margin-bottom: 38px;
+
+      & > div {
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        color: #222;
+      }
+
+      & > div:nth-child(1) {
+        margin-right: 22px;
+      }
+    }
+
+    & .t3 {
+      width: 589.98px;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: left;
+      color: #222;
+    }
+  }
+
+  .overview {
+      padding-left: 52px;
+  }
+}
