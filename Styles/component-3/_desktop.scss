@@ -1,0 +1,39 @@
+@media screen and (min-width: $desktop-min-width) {
+  .thumbnail {
+    width: 621.82px;
+    height: 408.76px;
+    background: #fff;
+    margin-left: 15%;
+  }
+
+  .images {
+      & > h2 {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        color: #fefefe;
+        margin-top: -8px;
+        margin-bottom: 35px;
+      }
+  }
+
+  .photo-container {
+    display: grid;
+    width: 366.96px;
+    height: 366.96px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+      & > div {
+        width: 107.02px;
+        height: 100.9px;
+        background: $gallery-color;
+
+        &:hover {
+            border: solid 8px $gallery-border;
+        }
+      }
+  }
+}
