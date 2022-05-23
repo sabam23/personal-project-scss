@@ -68,7 +68,7 @@
   }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1140px) and (min-width:1024px) {
     .overview-content {
         padding-left: 0px;
         width: 400px;

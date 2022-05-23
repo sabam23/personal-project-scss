@@ -1,0 +1,66 @@
+@media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+  .overview-block-1 {
+    display: none;
+  }
+  .overview-block-2 {
+    display: none;
+  }
+
+  .overview-content {
+    padding-top: 26px;
+    margin: auto;
+
+    & > h2 {
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    & .t1 {
+      width: 270.52px;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      color: #222;
+      text-decoration: underline;
+      margin-bottom: 21px;
+    }
+
+    & .t2 {
+      display: flex;
+      margin-bottom: 20px;
+      flex-direction: column;
+
+      & > div {
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #222;
+        width: 269px;
+      }
+
+      & > div:nth-child(1) {
+        margin-bottom: 22px;
+      }
+    }
+
+    & .t3 {
+      width: 271px;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #222;
+    }
+  }
+
+}

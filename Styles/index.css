@@ -111,7 +111,7 @@ table {
     bottom: 0%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header-info {
     width: 271px;
     height: 425px;
@@ -183,7 +183,7 @@ table {
     bottom: 0;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .header-info {
     width: 344px;
     height: 425px;
@@ -443,7 +443,7 @@ table {
     color: #222;
   }
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1140px) and (min-width: 1024px) {
   .overview-content {
     padding-left: 0px;
     width: 400px;
@@ -458,7 +458,67 @@ table {
     width: 500px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .overview-block-1 {
+    display: none;
+  }
+
+  .overview-block-2 {
+    display: none;
+  }
+
+  .overview-content {
+    padding-top: 26px;
+    margin: auto;
+  }
+  .overview-content > h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  .overview-content .t1 {
+    width: 270.52px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222;
+    text-decoration: underline;
+    margin-bottom: 21px;
+  }
+  .overview-content .t2 {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .overview-content .t2 > div {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #222;
+    width: 269px;
+  }
+  .overview-content .t2 > div:nth-child(1) {
+    margin-bottom: 22px;
+  }
+  .overview-content .t3 {
+    width: 271px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #222;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .overview-block-1 {
     display: none;
   }
