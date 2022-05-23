@@ -1,0 +1,32 @@
+@media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+  #gallery-title-2 {
+    display: none;
+  }
+
+  .thumbnail {
+    width: 271.21px;
+    height: 190.92px;
+    background: $gallery-color;
+    margin:0px auto;
+  }
+
+  .pic-contaiener {
+      display: none;
+  }
+
+  .gallery {
+    padding-top: 35px;
+    flex-direction: column;
+    height: 360.99px;
+  }
+
+  #gallery-title-1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #fefefe;
+    margin-bottom: 32.5px;
+  }
+}
