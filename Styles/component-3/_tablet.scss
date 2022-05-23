@@ -1,0 +1,52 @@
+@media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .thumbnail {
+    width: 591.6px;
+    height: 295.91px;
+    background: #fff;
+    margin-bottom: 25px;
+  }
+
+  #gallery-title-2 {
+    display: none;
+  }
+
+  #gallery-title-1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left;
+    color: #fefefe;
+    margin-bottom: 22.5px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    padding-left: 97px;
+    padding-top: 39.5px;
+    height: 574.99px;
+  }
+
+  .images {
+    & .pic-container {
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      display: grid;
+      width: 366.96px;
+      gap: 14.3px;
+      & > div {
+        width: 107.02px;
+        height: 100.9px;
+        background: $gallery-color;
+
+        &:hover {
+          border: solid 8px $gallery-border;
+        }
+      }
+    }
+  }
+
+  .none {
+    display: none;
+  }
+}
