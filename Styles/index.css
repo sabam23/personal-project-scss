@@ -48,7 +48,7 @@ table {
   border-spacing: 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .header-info {
     width: 350px;
     height: 425px;
@@ -75,12 +75,12 @@ table {
 
   .grey-1 {
     width: 15%;
-    background: #dbdbdb;
+    background: #DBDBDB;
   }
 
   .grey-2 {
     width: 350px;
-    background: #dbdbdb;
+    background: #DBDBDB;
     margin-right: 38.2%;
   }
 
@@ -183,7 +183,7 @@ table {
     bottom: 0;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .header-info {
     width: 344px;
     height: 425px;
@@ -209,7 +209,7 @@ table {
   }
 
   .grey-1 {
-    background: #dbdbdb;
+    background: #DBDBDB;
     width: 51.3px;
     margin-right: 74.6%;
   }
@@ -380,7 +380,7 @@ table {
   color: #fff;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .overview-block-1 {
     width: 15%;
     height: 100%;
@@ -430,7 +430,7 @@ table {
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 18.5px;
     text-align: left;
     color: #222;
   }
@@ -474,6 +474,7 @@ table {
   .overview-content {
     padding-top: 26px;
     margin: auto;
+    padding-left: 2px;
   }
   .overview-content > h2 {
     font-family: Montserrat;
@@ -483,6 +484,7 @@ table {
     text-align: center;
     color: #222;
     margin-bottom: 20px;
+    margin-right: 6px;
   }
   .overview-content .t1 {
     width: 270.52px;
@@ -491,13 +493,13 @@ table {
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-    color: #222;
+    color: v;
     text-decoration: underline;
-    margin-bottom: 21px;
+    margin-bottom: 24px;
   }
   .overview-content .t2 {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     flex-direction: column;
   }
   .overview-content .t2 > div {
@@ -523,7 +525,7 @@ table {
     margin-bottom: 50px;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .overview-block-1 {
     display: none;
   }
@@ -592,7 +594,7 @@ table {
   display: flex;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .thumbnail {
     width: 621.82px;
     height: 408.76px;
@@ -668,7 +670,7 @@ table {
     margin-bottom: 32.5px;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .thumbnail {
     width: 591.6px;
     height: 295.91px;
@@ -724,7 +726,7 @@ table {
   column-gap: 28px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .address {
     width: 349px;
     height: 440px;
@@ -732,6 +734,7 @@ table {
     top: 0%;
     left: 15%;
     padding-top: 65px;
+    background: #ed1c24;
   }
   .address > h2 {
     font-family: Montserrat;
@@ -803,8 +806,10 @@ table {
     top: 0%;
     left: 50%;
     transform: translate(-50%);
-    padding-top: 40px;
+    padding-top: 37px;
     margin: auto;
+    background: #ff4242;
+    opacity: 0.95;
   }
   .address > h2 {
     font-family: Montserrat;
@@ -872,7 +877,7 @@ table {
     height: 402.83px;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .address {
     width: 344.5px;
     height: 440px;
@@ -880,6 +885,7 @@ table {
     top: 0%;
     left: 52px;
     padding-top: 55px;
+    background: #ed1c24;
   }
   .address > h2 {
     font-family: Montserrat;
@@ -948,11 +954,7 @@ table {
   position: relative;
 }
 
-.address {
-  background: #ed1c24;
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .footer {
     height: 163.5px;
     align-items: center;
@@ -973,7 +975,7 @@ table {
     height: 71.5px;
     margin-top: 15px;
     position: relative;
-    margin-right: 22.8%;
+    margin-right: 27.5%;
   }
   .footer-title > span {
     font-family: "Montserrat", sans-serif;
@@ -1000,8 +1002,8 @@ table {
   .up-arrow {
     width: 39px;
     height: 39px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    margin-left: 19.6%;
+    border: 1px solid;
+    margin-left: 23.6%;
   }
   .up-arrow > img {
     margin-left: 50%;
@@ -1009,13 +1011,13 @@ table {
     transform: translate(-50%, -50%);
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 1024px) {
+@media screen and (max-width: 1230px) and (min-width: 1024px) {
   .up-arrow {
-    margin-left: 12%;
+    margin-left: 18%;
   }
 
   .footer-title {
-    margin-right: 12%;
+    margin-right: 22%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -1053,7 +1055,7 @@ table {
     color: #fff;
     font-size: 15.81px;
     position: absolute;
-    top: 7px;
+    top: 5px;
     left: 47px;
   }
 
@@ -1081,7 +1083,7 @@ table {
     transform: translate(-50%, -50%);
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .footer {
     height: 163.5px;
     flex-direction: column;

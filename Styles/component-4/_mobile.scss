@@ -6,8 +6,10 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%);
-    padding-top: 40px;
+    padding-top: 37px;
     margin:  auto;
+    background: $venue-bg-color;
+    opacity: .95;
 
     & > h2 {
       font-family: Montserrat;
@@ -15,7 +17,7 @@
       font-size: 24px;
       line-height: 36px;
       text-align: center;
-      color: #fff;
+      color: $text-color;
       margin-bottom: 20px;
     }
 
@@ -26,6 +28,7 @@
       background: $gallery-color;
       margin: 0px auto;
       margin-bottom: 26px;
+
 
       & > img {
         margin-left: 23%;
@@ -41,7 +44,7 @@
       font-size: 16px;
       line-height: 20px;
       text-align: center;
-      color: #fff;
+      color: $text-color;
       border-bottom: solid 1px $border-color;
       padding-bottom: 20px;
       margin-bottom: 23px;
@@ -73,7 +76,7 @@
       align-items: center;
       & > i {
         font-size: 20px;
-        color: #fff;
+        color: $text-color;
       }
     }
   }

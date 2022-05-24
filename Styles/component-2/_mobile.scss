@@ -9,6 +9,7 @@
   .overview-content {
     padding-top: 26px;
     margin: auto;
+    padding-left: 2px;
 
     & > h2 {
       font-family: Montserrat;
@@ -18,6 +19,7 @@
       text-align: center;
       color: #222;
       margin-bottom: 20px;
+      margin-right: 6px;
     }
 
     & .t1 {
@@ -27,14 +29,14 @@
       font-size: 18px;
       line-height: 30px;
       text-align: center;
-      color: #222;
+      color: v;
       text-decoration: underline;
-      margin-bottom: 21px;
+      margin-bottom: 24px;
     }
 
     & .t2 {
       display: flex;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
       flex-direction: column;
 
       & > div {
@@ -43,7 +45,7 @@
         font-size: 14px;
         line-height: 18px;
         text-align: center;
-        color: #222;
+        color: $paragraph-color;
         width: 269px;
       }
 
@@ -59,7 +61,7 @@
       font-size: 14px;
       line-height: 20px;
       text-align: center;
-      color: #222;
+      color: $paragraph-color;
       margin-bottom: 50px;
     }
   }

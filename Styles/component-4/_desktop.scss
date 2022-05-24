@@ -6,6 +6,7 @@
     top: 0%;
     left: 15%;
     padding-top: 65px;
+    background: $header-bg-color;
 
     & > h2 {
       font-family: Montserrat;
@@ -13,7 +14,7 @@
       font-size: 30px;
       line-height: 36px;
       text-align: center;
-      color: #fff;
+      color: $text-color;
       margin-bottom: 15px;
     }
 
@@ -39,7 +40,7 @@
       font-size: 16px;
       line-height: 20px;
       text-align: center;
-      color: #fff;
+      color: $text-color;
       border-bottom: solid 1px $border-color;
       padding-bottom: 20px;
       margin-bottom: 20px;
@@ -51,7 +52,7 @@
       font-size: 14px;
       line-height: 18px;
       text-align: center;
-      color: #fff;
+      color: $text-color;
       margin-bottom: 20px;
     }
 
@@ -71,7 +72,7 @@
       align-items: center;
       & > i {
         font-size: 20px;
-        color: #fff;
+        color: $text-color;
       }
     }
   }
